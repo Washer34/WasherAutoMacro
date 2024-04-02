@@ -1,0 +1,79 @@
+{
+  "EXEMPLE": {
+    "key": 9999,
+    "position": {
+      "top_left": [1300, 280],
+      "bottom_right": [1400, 300]
+    }
+  },
+  "CAC": {
+    "key": 10,
+    "position": {
+      "top_left": [1336.05, 264.63],
+      "bottom_right": [1383.07, 311.76]
+    }
+  },
+  "COMPETENCE_1": {
+    "key": 18,
+    "position": {
+      "top_left": [1399.35, 265.97],
+      "bottom_right": [1444.95, 310.47]
+    }
+  },
+  "COMPETENCE_2": {
+    "key": 19,
+    "position": {
+      "top_left": [1461.76, 263.74],
+      "bottom_right": [1508.46, 312.23]
+    }
+  },
+  "COMPETENCE_3": {
+    "key": 20,
+    "position": {
+      "top_left": [1523.58, 264.42],
+      "bottom_right": [1569.18, 309.24]
+    }
+  },
+  "COMPETENCE_4": {
+    "key": 21,
+    "position": {
+      "top_left": [1586.34, 264.19],
+      "bottom_right": [1630.6, 310.94]
+    }
+  },
+  "STATS": {
+    "key": 8,
+    "position": {
+      "top_left": [1362.86, 685.56],
+      "bottom_right": [1390.67, 713.06]
+    }
+  },
+  "SKILLS": {
+    "key": 40,
+    "position": {
+      "top_left": [1361.02, 737.13],
+      "bottom_right": [1391.3, 767.05]
+    }
+  },
+  "INVENTAIRE": {
+    "key": 34,
+    "position": {
+      "top_left": [1361.48, 789.94],
+      "bottom_right": [1392.42, 821.35]
+    }
+  },
+  "MAP": {
+    "key": 41,
+    "position": {
+      "top_left": [1418.0, 737.14],
+      "bottom_right": [1447.23, 765.02]
+    }
+  },
+  "CHAT": {
+    "key": "enter",
+    "position": {
+      "top_left": [1405.53, 876.47],
+      "bottom_right": [1699.98, 922.01]
+    }
+  }
+}
