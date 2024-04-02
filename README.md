@@ -10,6 +10,15 @@ WasherAutoMacro is a Python script aimed at automating actions in mobile games t
 
 ## Getting Started
 
+### Installation
+
+To get started with WasherAutoMacro, clone this repository and navigate into the project directory:
+
+```bash
+git clone https://github.com/Washer34/WasherAutoMacro.git
+cd WasherAutoMacro
+```
+
 ### Setting up the Environment
 
 #### Prerequisites
