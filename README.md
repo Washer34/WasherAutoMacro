@@ -12,11 +12,30 @@ WasherAutoMacro is a Python script aimed at automating actions in mobile games t
 
 ### Setting up the Environment
 
-Ensure Python is installed on your machine and set up a virtual environment:
+#### Prerequisites
+
+- Ensure you have Python installed on your machine. [Download Python](https://www.python.org/downloads/)
+
+#### Virtual Environment
+
+##### Creating the Environment
 
 ```bash
 python3 -m venv env
+```
+
+##### Activating the Environment
+
+- On macOS and Linux:
+
+```bash
 source env/bin/activate
+```
+
+- On Windows:
+
+```bash
+.\env\Scripts\activate
 ```
 
 ### Installing Dependencies
