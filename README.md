@@ -50,8 +50,8 @@ pip install -r requirements.txt
 
 Edit the `config.json` file to set up your macros. Each macro should have a key (used to trigger it) and a position (defined by the top left and the bottom right corners of the click area).
 
-- You can use WasherFindKey.py script to find the ID of your keys.
-- You can use WasherFindPosition.py script to find the cursor's position when you click.
+- You can use `WasherFindKey.py` script to find the ID of your keys.
+- You can use `WasherFindPosition.py` script to find the cursor's position when you click.
 
 ### Running the script
 
