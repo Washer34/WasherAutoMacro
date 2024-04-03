@@ -4,7 +4,18 @@ import time
 import json
 import random
 
+en_pause = False
+
+def pause_unpause():
+  global en_pause
+  en_pause = not en_pause
+  print("Paused" if en_pause else "Unpaused")
+
 def clique_competence(x1, y1, x2, y2, nom_macro):
+  global en_pause
+  if en_pause:
+    return
+  
   x_init, y_init = pyautogui.position()
   
   x_click = random.uniform(x1, x2)
@@ -28,9 +39,12 @@ def charger_macros():
       
       keyboard.add_hotkey(details['key'], make_lambda(x1, y1, x2, y2, macro))
 
+keyboard.add_hotkey('esc', pause_unpause)
+
 charger_macros()
 
 print("WasherAutoMacro Script starting... Press CTRL+C to stop.")
+print("Press Escape to pause/unpause.")
 
 try:
   while True:

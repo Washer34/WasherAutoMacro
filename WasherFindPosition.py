@@ -6,4 +6,4 @@ def on_click(x, y, button, pressed):
     print(f"Cursor position: ({x}, {y})")
 
 with mouse.Listener(on_click=on_click) as listener:
-  listener.join()
+  listener.join() 
